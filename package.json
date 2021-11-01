@@ -1,0 +1,21 @@
+{
+  "name": "jest-namespace-imports-transformer",
+  "version": "0.0.1",
+  "description": "jest-preset-angular workaround for https://github.com/thymikee/jest-preset-angular/issues/963",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "tsc --project tsconfig.lib.json"
+  },
+  "author": "Maksym Kobieliev",
+  "license": "ISC",
+  "types": "./dist/index.d.ts",
+  "peerDependencies": {
+    "@jest/transform": "27.0.6",
+    "typescript": "4.3.5",
+    "jest-preset-angular": "9.0.3"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
