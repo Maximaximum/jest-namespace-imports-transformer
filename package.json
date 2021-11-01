@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "prepare": "tsc --project tsconfig.lib.json"
+    "postinstall": "tsc --project tsconfig.lib.json"
   },
   "author": "Maksym Kobieliev",
   "license": "ISC",
