@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "jest-preset-angular workaround for https://github.com/thymikee/jest-preset-angular/issues/963",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maximaximum/jest-namespace-imports-transformer"
+  },
   "scripts": {
     "test": "jest",
     "postinstall": "tsc --project tsconfig.lib.json"
